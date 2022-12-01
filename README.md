@@ -7,8 +7,7 @@ Structure
 Required packages: 
 
 `Baseline` contains first cell which installs reuire packages automatically, used for parsing, training logs and testing logs. 
-> while traing `options['logkeys'] = True` while parsing keep it `False`
-
+> while parsing keep `options['logkeys'] = True` during training to keep logkeys and while predicting keep it `False`
 > logparse
 Contains `Spel` and `Drain` two parsing algorithms default is `Drain`
 
