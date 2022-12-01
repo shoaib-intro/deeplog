@@ -334,16 +334,3 @@ class LogParser:
         return parameter_list
 
 
-'''
-Just adding this in case someone else has this problem in 2022 when using python 3.8.10.
-I changed the following line:
-
-splitter = re.sub(' +', '\s+', splitters[k])
-
-to
-
-splitter = re.sub(' +', '\\\s+', splitters[k])
-
-and that fixed it. Note that I changed this only in the function def _generate_logformat_regex(self, logformat): of the file Spell/Spell.py (because I was using spell) and not in utils/logloader.py.
-'''
-
