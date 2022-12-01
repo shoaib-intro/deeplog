@@ -1,4 +1,7 @@
-# Deeplog
+# Deeplog (end to end anomaly detection)
+
+- **Input**: raw logs(log/text) in `input` folder
+- **output**: csv structuded files with marked anomalies in `output` folder 
 
 Structure
 Required packages: 
